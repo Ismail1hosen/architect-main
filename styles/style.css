@@ -161,9 +161,9 @@
     height: 1059px;
     margin-left: 240px;
   }
-  .middle:hover{
+  /* .middle:hover{
     border: 3px solid #FF900E;
-  }
+  } */
 
   .middle-section-title{
     display: flex;
@@ -183,10 +183,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 24px;
-    /* display: flex;
-    gap: 54px; */
-    /* margin-left: 240px;
-    margin-right: 240px; */
+   
   }
   .middle-first{
     margin-top: 39px;
@@ -338,6 +335,121 @@
   }
   .logo img{
     filter: grayscale(100%);
+  }
+
+  /* footer section style */
+
+  .footer-main{
+    margin-top: 130px;
+    margin-bottom: 216px;
+    max-width: 1440px;
+    width: 100%;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 240px;
+  }
+  .footer-description{
+    padding-top: 40px;
+    
+  }
+
+  /* media quyre */
+
+  @media only screen and (max-width:577px){
+    body{
+      width: 393;
+    }
+    .nav-var{
+      flex-direction: column;
+    }
+
+    .nav-list{
+      flex-direction: column;
+      margin-top: 20px;
+      
+    }
+
+    .primary-btn{
+      margin-top: 120px;
+    }
+    .banner img{
+      width: 387px;
+      height: 200px;
+    }
+
+    .team-main{
+      flex-direction: column;
+    }
+    .team-section{
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 10px;
+    }
+    .team-description{
+      margin-left: 20px;
+      padding: 20px;
+    }
+    .description{
+      width: 385px;
+    }
+
+    .middle{
+      margin: 10px;
+      height: 2118px;
+    }
+
+    .middle-section-title{
+      /* flex-direction: column; */
+      width: 390px;
+    }
+
+    .middle-main{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    /* .middle-first{
+      height: 132opx;
+    } */
+    .details-box{
+      width: 387px;
+      height: 210px;
+    }
+    .details-text{
+      margin: 5px;
+    }
+    .middle-image img{
+      margin-top: 200px;
+      width: 387px;
+      height: 550px;
+    }
+    .middle-btn{
+      transform: translate(-10px, -80px) ;
+      width: 200px;
+      height: 170px;
+      border-radius: 12px;
+    }
+    .middle .btn-year{
+      font-weight: 700;
+      font-size: 42px;
+    }
+    .some-section{
+      margin-top: 30px;
+      margin-left: 10px;
+      width: 385px;
+    }
+    .icon-align{
+      flex-direction: column;
+      gap: 20px;
+    }
+    .logo-section-main{
+      margin-left: 110px;
+      margin-top: 20px;
+      flex-direction: column;
+    }
+    .footer-main{
+      margin-left: 20px;
+      max-width: 355px;
+    }
   }
 
 
